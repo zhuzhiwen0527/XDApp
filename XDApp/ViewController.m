@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#import <CTMediator+XDBusiness.h>
 @interface ViewController ()
 
 @end
@@ -18,5 +18,16 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)businessControllerAction:(id)sender {
+    
+    UIViewController *vc = [[CTMediator sharedInstance] Business_ViewControllerWithCallBack:^(NSString * _Nonnull result) {
+        NSLog(@"%@",result);
+    }];
+    vc.view.backgroundColor = UIColor.whiteColor;
+    if(vc){
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+
+}
 
 @end

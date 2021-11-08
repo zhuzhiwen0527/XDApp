@@ -1,0 +1,6 @@
+framework module XDBusiness_Category {
+  umbrella header "XDBusiness_Category-umbrella.h"
+
+  export *
+  module * { export * }
+}

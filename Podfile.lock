@@ -1,0 +1,26 @@
+PODS:
+  - CTMediator (46)
+  - XDBusiness_Category (0.1.0):
+    - CTMediator
+  - XDBusinessModule (0.1.4)
+
+DEPENDENCIES:
+  - CTMediator
+  - XDBusiness_Category
+  - XDBusinessModule (~> 0.1.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+  https://github.com/zhuzhiwen0527/ZWSpecs.git:
+    - XDBusiness_Category
+    - XDBusinessModule
+
+SPEC CHECKSUMS:
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  XDBusiness_Category: 69a50e633f063f4e80cb4ef4fa4efe3151d63896
+  XDBusinessModule: d0bab4a253b4c5ffd72a9d6a926edebbc98956b0
+
+PODFILE CHECKSUM: 09e6b80bbd4a6295a80f9dd236d22cb61e3b1b30
+
+COCOAPODS: 1.10.1
