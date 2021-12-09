@@ -9,6 +9,8 @@
 #import <CTMediator+XDBusiness.h>
 @interface ViewController ()
 @property (nonatomic,copy) NSString * str;
+@property (nonatomic,copy) id  persion;
+
 @end
 
 @implementation ViewController
