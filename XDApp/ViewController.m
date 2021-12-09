@@ -15,7 +15,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"%@",result);
 }
 
 - (IBAction)businessControllerAction:(id)sender {
