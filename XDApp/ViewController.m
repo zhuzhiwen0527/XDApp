@@ -8,14 +8,14 @@
 #import "ViewController.h"
 #import <CTMediator+XDBusiness.h>
 @interface ViewController ()
-
+@property (nonatomic,copy) NSString * str;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"%@",result);
+    self.view.backgroundColor = UIColor.whiteColor;
 }
 
 - (IBAction)businessControllerAction:(id)sender {
@@ -24,7 +24,6 @@
     ///
     ///
     UIViewController *vc = [[CTMediator sharedInstance] Business_ViewControllerWithCallBack:^(NSString * _Nonnull result) {
-        NSLog(@"%@",result);
         NSLog(@"%@",result);
     }];
     vc.view.backgroundColor = UIColor.whiteColor;
