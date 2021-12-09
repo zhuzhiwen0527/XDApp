@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		759F27222738D4F1007CA8CB /* XDAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F27212738D4F1007CA8CB /* XDAppTests.m */; };
 		759F272D2738D4F1007CA8CB /* XDAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F272C2738D4F1007CA8CB /* XDAppUITests.m */; };
 		7F66056624E615113C96934A /* Pods_XDApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7744BB1F8AD22729F8CE6393 /* Pods_XDApp.framework */; };
+		ED67B1F02761AB2E00BD4420 /* Persion.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67B1EF2761AB2E00BD4420 /* Persion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		7744BB1F8AD22729F8CE6393 /* Pods_XDApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XDApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3E387C652AC0BF2A725731 /* Pods_XDAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XDAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC8AA9D7217CECBE01D0147 /* Pods-XDAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDAppTests.debug.xcconfig"; path = "Target Support Files/Pods-XDAppTests/Pods-XDAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED67B1EE2761AB2E00BD4420 /* Persion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Persion.h; sourceTree = "<group>"; };
+		ED67B1EF2761AB2E00BD4420 /* Persion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Persion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +109,6 @@
 				BEC8AA9D7217CECBE01D0147 /* Pods-XDAppTests.debug.xcconfig */,
 				4E947137A497576016085DBD /* Pods-XDAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,6 +148,8 @@
 				759F27132738D4F0007CA8CB /* LaunchScreen.storyboard */,
 				759F27162738D4F0007CA8CB /* Info.plist */,
 				759F27172738D4F0007CA8CB /* main.m */,
+				ED67B1EE2761AB2E00BD4420 /* Persion.h */,
+				ED67B1EF2761AB2E00BD4420 /* Persion.m */,
 			);
 			path = XDApp;
 			sourceTree = "<group>";
@@ -416,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				759F270D2738D4ED007CA8CB /* ViewController.m in Sources */,
+				ED67B1F02761AB2E00BD4420 /* Persion.m in Sources */,
 				759F27072738D4ED007CA8CB /* AppDelegate.m in Sources */,
 				759F27182738D4F0007CA8CB /* main.m in Sources */,
 				759F270A2738D4ED007CA8CB /* SceneDelegate.m in Sources */,
