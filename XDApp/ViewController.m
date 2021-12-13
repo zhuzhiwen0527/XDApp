@@ -8,9 +8,6 @@
 #import "ViewController.h"
 #import <CTMediator+XDBusiness.h>
 @interface ViewController ()
-@property (nonatomic,copy) NSString * str;
-@property (nonatomic,copy) id  persion;
-
 @end
 
 @implementation ViewController
@@ -23,8 +20,7 @@
 - (IBAction)businessControllerAction:(id)sender {
     
     ///CTMediator
-    ///
-    ///
+    /// get vc
     UIViewController *vc = [[CTMediator sharedInstance] Business_ViewControllerWithCallBack:^(NSString * _Nonnull result) {
         NSLog(@"%@",result);
     }];
